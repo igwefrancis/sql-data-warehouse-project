@@ -1,4 +1,4 @@
-# sql-data-warehouse-project
+# SQL Data Warehouse and Analytic Project
  This project demomstrates a comprehensive data warehhouse and analytics soluction, from building a data warehouse to generating actonable insights.
 # Project Requirments
 # objective
