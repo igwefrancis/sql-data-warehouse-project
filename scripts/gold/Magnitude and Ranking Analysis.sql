@@ -1,4 +1,4 @@
--- data exploration
+/* -- Data Exploration -- */
 -- dimension exploration
 select distinct country from gold.dim_customers;
 select distinct category from gold.dim_products;
@@ -19,7 +19,7 @@ timestampdiff(month,min(order_date), max(order_date)) as  order_range_month
  timestampdiff(year, max(birthdate), current_date()) as youngest_age
  from gold.dim_customers;
  
- -- Measures exploration
+ --  *** Measures exploration ***
  -- find the total sales
  select sum(sales_amount) as total_sales from gold.fact_sales;
  
@@ -70,7 +70,7 @@ union all
   select 'Total no customers', count(distinct product_key) from gold.dim_products;
  
  
--- Magnitude Analysis
+-- **** Magnitude Analysis ****
 
 -- find total customers by countries
 select
@@ -146,7 +146,7 @@ on c.customer_key = f.customer_key
 group by c.country
 order by Total_sold_items desc;
 
--- Ranking Analysis
+-- **** Ranking Analysis ****
 
 -- Which 5 products generates the highest revenue
 select
