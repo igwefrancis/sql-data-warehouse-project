@@ -17,3 +17,11 @@ Specifications
    2. Product Performance
    3. Sales Trend
 These insights empower stakeholders with key business metrices, enabling stratagic decision making.
+# Tools Used
+•	MySQL
+•	Microsoft Power BI
+•	Power Query
+•	Dax
+•	Microsoft PowerPoint
+
+
